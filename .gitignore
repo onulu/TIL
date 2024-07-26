@@ -1,0 +1,20 @@
+# Obsidian
+/.obsidian
+
+# Cache files
+/.obsidian/cache
+
+# Local graph data
+/.obsidian/graph
+
+# Workspace metadata
+/.obsidian/workspace
+
+# Plugin data
+/.obsidian/plugins
+
+# Community plugins
+/.obsidian/community-plugins
+
+# Obsidian Publish
+/.obsidian/publish
