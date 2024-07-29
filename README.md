@@ -4,7 +4,7 @@ Today’s Insights and Learning: A Daily Digest of My Learning Journey
 This repo is a compilation of brief, insightful write-ups on the diverse array of languages and technologies I explore each day.
 (Inspired by [jbranchaud/til](https://github.com/jbranchaud/til)
 
-*7 TILs and counting...*
+*8 TILs and counting...*
 
 ---
 
@@ -26,3 +26,4 @@ This repo is a compilation of brief, insightful write-ups on the diverse array o
 - [Zip](python/zip.md)
 - [Transposing matrix](python/transpose-matrix.md)
 - [Unpacking items safely](python/safe-unpacking.md)
+- [Finding duplicate items across multiple lists](python/find-duplicates-in-lists.md)
