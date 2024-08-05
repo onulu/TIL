@@ -1,15 +1,16 @@
-# How to unpacking items safely
+# 리스트의 요소 안전하게 언패킹하기
 
-When scraping web data, it's common to encounter inconsistencies in the structure of the information you're collecting. For example, when scraping job listings, some posts might omit fields like 'region' that are present in others. This inconsistency can cause errors when unpacking data into variables.
+웹 데이터를 스크래핑할 때, 마크업에서 일부 요소가 누락되는등의 일관성이 없는 경우를 만날 수 있다.
+예를 들어, 구인 공고를 스크래핑할 때 일부 게시물에는 다른 게시물에 있는 '지역' 같은 필드가 누락될 수 있다. 이러한 불일치는 데이터를 변수로 언패킹할 때 오류를 일으킬 수 있다.
 
-1. Using list slicing with a defaul value
+1. 기본값을 사용한 리스트 슬라이싱
 
 ```python
 company, position, *rest = job.find_all('span', class_='company')
 region = rest[0] if rest else ''
 ```
 
-2. Using a helper function
+2. 헬퍼 함수를 사용하기
 
 ```python
 def safe_unpack(iterable, num, default = ''):
@@ -18,4 +19,4 @@ def safe_unpack(iterable, num, default = ''):
 company, position, region = safe_unpack(job.find_all('span', class_='company'), 3)
 ```
 
-The `safe_unpack` function ensures you always get the expected number of items, filling in with the default value when necessary.
+`safe_unpack` 함수를 사용하면 값이 없는 경우 기본값으로 채워주어 항상 예상된 수의 항목을 얻을 수 있고 에러를 방지할 수 있다.

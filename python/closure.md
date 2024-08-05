@@ -1,4 +1,4 @@
-# Closure in Python
+# 클로져와 데코레이터
 
 A closure is a function bundled together with references to its surrounding state (lexical environment). A closure in Python is a function that remembers and can access variables from its outer(enclosing) scope even after the outer function has finished executing.
 

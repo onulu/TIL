@@ -1,17 +1,16 @@
 # Today I Learned
 
-Today’s Insights and Learning: A Daily Digest of My Learning Journey
-This repo is a compilation of brief, insightful write-ups on the diverse array of languages and technologies I explore each day.
-(Inspired by [jbranchaud/til](https://github.com/jbranchaud/til)
+오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 모아둔 곳입니다.
+([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
 *9 TILs and counting...*
 
 ---
 
-## Rules
+## 규칙 Rules
 
-1. Write a short post about things I learned today.
-2. It mustn't take more than 20 minutes to write a post.
+1. 짧고 간략하게 한개의 주제에 대해서 작성한다.
+2. 20분내로 작성한다.
 
 ---
 
@@ -21,12 +20,12 @@ This repo is a compilation of brief, insightful write-ups on the diverse array o
 
 - [Common sequence operations](python/common-sequence-operations.md)
 - [Mutable sequence operations](python/mutable-sequence-operations.md)
-- [Remove duplicates from a list](python/remove-duplicates.md)
-- [Closure and Decorator](python/closure.md)
-- [Zip](python/zip.md)
-- [Transposing matrix](python/transpose-matrix.md)
-- [Unpacking items safely](python/safe-unpacking.md)
-- [Finding duplicate items across multiple lists](python/find-duplicates-in-lists.md)
+- [리스트에서 중복요소 제거하기](python/remove-duplicates.md)
+- [클로저와 데코레이터](python/closure.md)
+- [zip 사용법](python/zip.md)
+- [매트릭스 전치](python/transpose-matrix.md)
+- [안전하게 unpack사용하기](python/safe-unpacking.md)
+- [다수의 리스트에서 공통요소 찾기](python/find-duplicates-in-lists.md)
 
 ### ETC
 
