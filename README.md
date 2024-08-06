@@ -27,6 +27,7 @@ This repo is a compilation of brief, insightful write-ups on the diverse array o
 - [Transposing matrix](python/transpose-matrix.md)
 - [Unpacking items safely](python/safe-unpacking.md)
 - [Finding duplicate items across multiple lists](python/find-duplicates-in-lists.md)
+- [익명함수 Lambda](python/anonymous-function.md)
 
 ### ETC
 
