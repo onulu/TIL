@@ -1,6 +1,9 @@
-# Closure in Python
+# 클로져와 데코레이터
 
-A closure is a function bundled together with references to its surrounding state (lexical environment). A closure in Python is a function that remembers and can access variables from its outer(enclosing) scope even after the outer function has finished executing.
+클로저는 자신을 둘러싼 상태(렉시컬 환경)에 대한 참조를 기억하는 함수이다. 파이썬에서 클로저는 중첩함수에서 외부 함수의 실행이 끝난 후에도 외부 범위의 변수를 기억하고 접근할 수 있는 특별한 기능이다.
+
+클로저는 마치 작은 '데이터 저장소' 혹은 '특별한 가방'을 가진 함수라고 생각할 수 있다. 나중에 함수가 실행될 때 이 정보를 사용할 수 있다.
+
 
 ```python
 def outer(x):
@@ -12,19 +15,19 @@ closure = outer(10)
 print(closure(20))  # 10
 ```
 
-Closures are useful
+클로저가 유영한 경우
 
-- for data privacy
-- for callback functions
-- for decorators
-- for memoization
+- 데이터의 은닉, 보호
+- 콜백 함수의 활용
+- 데코레이터
+- 메모아이제이션
 
-> Lexical environment is the environment in which the code is written.
-> It refers to how variable names are resolved in nested functions based on their location in the source code.
+> 렉시컬 환경이란 코드가 실행된 환경이 아닌 코드가 작성된 환경을 의미한다.
+> 이는 소스 코드에서의 위치를 기준으로 중첩된 함수에서 변수가 어떻게 해결되는지를 의미한다.
 
 ## Decorators
 
-Decorator is a function that takes another function and extends its behavior **without explicitly modifying it**.
+데코레이터는 다른 함수를 인수로 받아 그 함수이 동작을 확장하는 함수이다. 데코레이터는 원래 함수의 코드를 수정하지 않고도 그 동작을 변경하거나 확장할 수 있게 해준다.
 
   ```python
   import time
@@ -44,8 +47,8 @@ Decorator is a function that takes another function and extends its behavior **w
     print("Running myfunc")
   
   func()
-  # func will be wrapped by elapsed function by the @elapsed syntax
-  # it's same as calling elapsed(func)()
+  # @elapsed => func함수는 elapsed함수에 의해 감싸져서 실행된다.
+  # elapsed(func)() 와 동일한 문법적 설탕임.
   ```
 
 ```python

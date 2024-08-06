@@ -1,23 +1,23 @@
 # Mutable Sequence Operations
 
-Supported by mutable sequence types, such as lists.
+리스트와 같은 가변의 시퀀스 타입 연산자
 
 ## Operations
 
-- `s[i] = x` - item i of s is replaced by x
-- `s[i:j] = t` - slice of s from i to j is replaced by the contents of the iterable t
-- `del s[i:j]` - same as `s[i:j] = []`
-- `s[i:j:k] = t` - the elements of s[i:j:k] are replaced by those of t
-- `del s[i:j:k]` - removes the elements of s[i:j:k] from the list
-- `s.append(x)` - appends x to the end of the sequence
-- `s.clear()` - removes all items from s
-- `s.copy()` - creates a shallow copy of s
-- `s.extend(t)` or `s += t` - extends s with the contents of t
-- `s *= n` - updates s with its contents repeated n times
-- `s.insert(i, x)` - inserts x into s at the index i
-- `s.pop([i])` - removes the item at index i and returns it
-- `s.remove(x)` - removes the first item from s where s[i] is equal to x
-- `s.reverse()` - reverses the items of s in place
+- `s[i] = x` - s의 i번째 항목을 x로 대체
+- `s[i:j] = t` - s의 i부터 j까지의 슬라이스를 반복 가능한 t의 내용으로 대체
+- `del s[i:j]` - `s[i:j] = []`와 동일
+- `s[i:j:k] = t` - s[i:j:k]의 요소들을 t의 요소들로 대체
+- `del s[i:j:k]` - s[i:j:k]의 요소들을 리스트에서 제거
+- `s.append(x)` - x를 시퀀스의 끝에 추가
+- `s.clear()` -  s의 모든 항목을 제거
+- `s.copy()` - s의 얕은 복사본을 생성
+- `s.extend(t)` 혹은 `s += t` - s를 t로 확장
+- `s *= n` - s의 내용을 n번 반복하여 s를 업데이트
+- `s.insert(i, x)` - x를 s의 인덱스 i 위치에 삽입
+- `s.pop([i])` - 인덱스 i의 항목을 제거하고 반환
+- `s.remove(x)` - s[i]가 x와 같은 첫 번째 항목을 s에서 제거
+- `s.reverse()` - s의 항목들을 제자리에서 뒤집음
 
 ---
 

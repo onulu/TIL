@@ -1,10 +1,9 @@
 # `zip()`
 
-`zip` is a built-in function that combines multiple iterables into a single iterable of **tuples**.
+`zip`은 여러 개의 `iterable`을 하나의 튜플로 이루어진 `iterable` 로 결합하는 내장 함수이다.
 
-- It pairs elements from each iterable together.
-- It stops at the length of the *shortest* iterable.
-- The result is an iterator.
+- 각 `iterable`에서 요소들을 짝지어 묶는다
+- 가장 짧은 `iterable`의 길이에서 멈춘다
 
 ## Creating dictionaries
 

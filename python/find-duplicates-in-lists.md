@@ -1,8 +1,7 @@
-# Finding duplicate items across multiple lists
+# 여러개의 리스트에서 공통된 중복 요소 찾기
 
-To find duplicate items across multiple lists in Python, you can use sets and their intersection.
-
-You can use `&` operator to perform an intersection operation. It's equivalent to the `intersection()` method but faster for two sets.
+`set`와 `intersection`을 사용해 여러개의 리스트에서 공통의 요소를 찾을 수 있다. (공통의 요소 -> 합집합으로 생각할 수 있음)
+`&` 연산자는 `intersection()` 메서드와 유사하지만 두개의 세트를 비교할때는 더 빠르다.
 
 ```python
 array1 = [1, 2, 3, 4, 5]
@@ -12,14 +11,13 @@ print(set(array1) & set(array2))
 # {3, 4, 5}
 ```
 
-You can also use it with the augmented assignment operator.
-This modifies `set1` in-place, keeping only elements also present in `set2`
+아래와 같이 `&=` 연산자를 사용해 `set1`에 공통요소값을 덮어씌울 수 있다.
 
 ```python
 set1 &= set2
 ```
 
-For multiple lists, you can define function to find duplicates.
+두개 이상의 배열에서 공통요소를 찾기위해 함수를 작성할 수 있다.
 
 ```python
 def find_duplicates(*lists):
@@ -33,5 +31,3 @@ list3 = [2, 3, 7]
 duplicates = find_duplicates(list1, list2, list3)
 print(duplicates)  # Output: {2, 3}
 ```
-
-This returns a set of duplicate items. If you need a list instead, you can convert the result using `list(duplicates)`

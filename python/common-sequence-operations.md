@@ -1,34 +1,35 @@
 # Common Sequence Operations
 
-supported by most sequence types, both mutable and immutable.
-for example strings, lists, and tuples.
+문자열, 배열, 튜플등 대부분의 시퀀스 타입에서 사용할 수 있는 연산자들
 
 ## Operations
 
-`x in s` - True if an item of s is equal to x, else False
-`x not in s` - False if an item of s is equal to x, else True
-`s + t` - the concatenation of s and t
-`s * n` or `n * s` - equivalent to adding s to itself n times
-`s[i]` - ith item of s, origin 0
-`s[i:j]` - slice of s from i to j
-`s[i:j:k]` - slice of s from i to j with step k
-`len(s)` - length of s
-`min(s)` - smallest item of s
-`max(s)` - largest item of s
-`s.index(x[, i[, j]])` - index of the first occurrence of x in s (at or after index i and before index j)
-`s.count(x)` - total number of occurrences of x in s
+`x in s` - x가 s에 포함되어 있으면 참, 반대는 x not in s
+`s + t` - s와 t를 결합
+`s * n` 또는 `n * s` - s를 n번 반복
+`s[i]` - 인덱싱
+`s[i:j]` - 슬라이싱
+`s[i:j:k]` - 슬라이싱 + 간격(k)
+`len(s)` - s의 길이
+`min(s)` - s의 요소 중 가장 작은 것
+`max(s)` - s의 요소 중 가장 큰 것
+`s.index(x[, i[, j]])` - s에서 x의 위치를 찾음 (선택적으로 i부터 j까지 범위 지정)
+`s.count(x)` - s 안에 x가 몇 개 있는지 세기`
 
 ---
 
-## Indexing
+## 인덱싱
 
 ```python
 my_list = [1, 2, 3, 4, 5]
-print(my_list[0]) # 1
 print(my_list[-1]) # 5
+
+my_str = 'hello'
+print(my_str[0]) # h
+
 ```
 
-## Slicing
+## 슬라이싱
 
 ```python
 my_list = [1, 2, 3, 4, 5]
@@ -40,7 +41,7 @@ print(my_list[::2]) # [1, 3, 5]
 print(my_list[::-1]) # [5, 4, 3, 2, 1]
 ```
 
-## Concatenation
+## 결합하기
 
 ```python
 my_list = [1, 2, 3]
@@ -48,7 +49,7 @@ other_list = [4, 5, 6]
 print(my_list + other_list) # [1, 2, 3, 4, 5, 6]
 ```
 
-## Finding Index
+## 인덱스 구하기
 
 ```python
 my_list = [1, 2, 3, 4, 5]

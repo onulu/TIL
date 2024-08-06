@@ -1,4 +1,4 @@
-# Transposing a matrix
+# 매트릭스(행렬) 전치하기
 
 ## List comprehension
 
@@ -11,7 +11,7 @@ transposed = transpose(matrix)
 # [[1, 4, 7], [2, 5, 8], [3, 6, 9]]
 ```
 
-## Using NumPy
+## NumPy 사용
 
 ```python
 import numpy as np
@@ -20,7 +20,7 @@ matrix = np.array([[1, 2, 3], [4, 5, 6], [7, 8, 9]])
 transposed = matrix.T # or np.transpose(matrix)
 ```
 
-## Using zip()
+## zip() 사용
 
 ```python
 matrix = [[1, 2, 3], [4, 5, 6], [7, 8, 9]]
@@ -31,6 +31,6 @@ transposed = list(zip(*matrix))
 # [(1, 4, 7), (2, 5, 8), (3, 6, 9)]
 ```
 
-- List comprehension is pythonic and readable.
-- NumPy is very efficient for large matrices and provides many additional matrix operations.
-- Map and Zip approach is concise.
+- 리스트 컴프리핸션은 파이썬스럽고 가독성이 좋음
+- `numpy`는 큰 규모의 매트릭스에 대해 매우 효율적이고 다양한 메서드를 제공
+- `map` 과 `zip`은 간결함
