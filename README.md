@@ -1,9 +1,9 @@
 # Today I Learned
 
-오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 모아둔 곳입니다.
+오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*9 TILs and counting...*
+*10 TILs and counting...*
 
 ---
 
