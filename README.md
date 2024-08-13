@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*10 TILs and counting...*
+*11 TILs and counting...*
 
 ---
 
@@ -31,3 +31,4 @@
 ### ETC
 
 - [아나콘다 conda cli 기본 사용법](etc/anaconda-cli.md)
+- [터미널에서 webp로 이미지 변환하기](etc/convert-to-webp.md)
