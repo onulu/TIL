@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*13 TILs and counting...*
+*14 TILs and counting...*
 
 ---
 
@@ -35,6 +35,10 @@
 #### MachineLearning
 
 - [하이퍼파라미터](ML/hyperparameter.md)
+
+### SQL
+
+- [데이터베이스](sql/what-is-a-database.md)
 
 #### ETC
 
