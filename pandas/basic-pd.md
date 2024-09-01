@@ -86,7 +86,7 @@ df[['Revenue', 'Employees', 'Country']]
 
 ### `loc` 컬럼 인덱스로 선택하기
 
-`loc`는 라벨이나 위치로 데이터프레임의 행과 열을 선택할 수 있다.
+`loc`는 **라벨**로 데이터프레임의 행과 열을 선택할 수 있다.
 `loc[row_label, column_label]` 와 같이 row, column순으로 입력한다.
 
 ```python
