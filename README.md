@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*14 TILs and counting...*
+*15 TILs and counting...*
 
 ---
 
@@ -27,6 +27,7 @@
 - [안전하게 unpack사용하기](python/safe-unpacking.md)
 - [다수의 리스트에서 공통요소 찾기](python/find-duplicates-in-lists.md)
 - [익명함수 Lambda](python/anonymous-function.md)
+- [기본 문법 정리](python/python101.md)
 
 #### Pandas
 
