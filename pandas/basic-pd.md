@@ -2,7 +2,7 @@
 
 ## Pandas가져오기
 
-```py
+```python
 import pandas as pd
 ```
 
