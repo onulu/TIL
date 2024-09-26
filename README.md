@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*17 TILs and counting...*
+*20 TILs and counting...*
 
 ---
 
@@ -42,6 +42,8 @@
 
 - [카메라 연동하기](openCV/start-the-camera.md)
 - [아핀변환과 warpAffine](openCV/warp-affine-transformation.md)
+- [이미지 보간](openCV/interpolation.md)
+- [이미지회전 매트릭스](openCV/image-rotation.md)
 
 #### SQL
 
