@@ -41,6 +41,7 @@
 ### openCV
 
 - [카메라 연동하기](openCV/start-the-camera.md)
+- [아핀변환과 warpAffine](openCV/warp-affine-transformation.md)
 
 #### SQL
 
