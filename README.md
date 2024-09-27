@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*21 TILs and counting...*
+*22 TILs and counting...*
 
 ---
 
@@ -33,6 +33,10 @@
 #### Pandas
 
 - [Pandas 기본 문법](pandas/basic-pd.md)
+
+#### Numpy
+
+- [Numpy 기본 문법](numpy/basic-numpy.md)
 
 #### MachineLearning
 
