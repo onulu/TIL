@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*22 TILs and counting...*
+*24 TILs and counting...*
 
 ---
 
@@ -56,6 +56,11 @@
 #### Web
 
 - [브라우저 렌더링](web/browser-rendering.md)
+
+#### React
+
+- [코드 스플리팅](react/code-splitting.md)
+- [번들 최적화](react/bundle-optimization.md)
 
 #### ETC
 
