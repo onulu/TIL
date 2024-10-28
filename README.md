@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*24 TILs and counting...*
+*27 TILs and counting...*
 
 ---
 
@@ -29,6 +29,7 @@
 - [익명함수 Lambda](python/anonymous-function.md)
 - [기본 문법 정리](python/python101.md)
 - [rye를 사용해 가상환경 설정하기](python/rye-venv.md)
+- [fastAPI 응답](python/fastAPI/response.md)
 
 #### Pandas
 
@@ -56,6 +57,8 @@
 #### Web
 
 - [브라우저 렌더링](web/browser-rendering.md)
+- [Layout Thrashing](web/layout-thrashing.md)
+- [자바스크립트 파싱](web/v8-javascript-parsing.md)
 
 #### React
 
