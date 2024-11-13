@@ -1,13 +1,12 @@
 # Response 핸들링하기
 
-FastAPI에는 다양한 종류?의 response 클래스를 가지고 있다. 
+FastAPI에는 다양한 response 클래스를 가지고 있다.
 
 ## Response
 
 - 단일 응답을 반환하는 일반적인 방식으로 데이터를 한 번에 클라이언트에게 전달한다.
 - 이미지, JSON, 텍스트 등 비교적 작은 데이터를 반환할 때 적합하다.
 - 응답이 준비되면 전체 데이터를 한꺼번에 전송해 클라이언트가 응답 받을 때까지 기다린다. -> 큰데이터나 장시간 작업에는 메모리 부담
-
 
 ```python
 from fastapi import FastAPI, Response
@@ -50,8 +49,6 @@ async def file_response():
 	file_path = "path/to/file.pdf"
 	return FileResponse(file_path, filename="download.pdf")
 ```
-
-
 
 ## StreamingResponse
 

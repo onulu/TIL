@@ -18,3 +18,5 @@
 
 # Obsidian Publish
 /.obsidian/publish
+
+/draft

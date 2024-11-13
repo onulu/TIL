@@ -41,7 +41,9 @@
 
 #### MachineLearning
 
-- [하이퍼파라미터](ML/hyperparameter.md)
+- [하이퍼파라미터](machine learning/hyperparameter.md)
+- [경사하강법](machine learning/gradient-descent.md)
+- [과적합, 과소적합](machine learning/underfit-overfit.md)
 
 ### openCV
 
@@ -69,3 +71,4 @@
 
 - [아나콘다 conda cli 기본 사용법](etc/anaconda-cli.md)
 - [터미널에서 webp로 이미지 변환하기](etc/convert-to-webp.md)
+- [컴퓨터 프로세싱](etc/process-in-cs.md)
