@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*27 TILs and counting...*
+*31 TILs and counting...*
 
 ---
 
@@ -43,7 +43,7 @@
 
 - [하이퍼파라미터](machine learning/hyperparameter.md)
 - [경사하강법](machine learning/gradient-descent.md)
-- [과적합, 과소적합](machine learning/underfit-overfit.md)
+- [과적합-과소적합](machine learning/underfit-overfit.md)
 
 ### openCV
 
@@ -51,6 +51,10 @@
 - [아핀변환과 warpAffine](openCV/warp-affine-transformation.md)
 - [이미지 보간](openCV/interpolation.md)
 - [이미지회전 매트릭스](openCV/image-rotation.md)
+
+#### Math
+
+- [미분-편미분](math/differentiation.md)
 
 #### SQL
 
