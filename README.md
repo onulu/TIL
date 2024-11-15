@@ -3,7 +3,7 @@
 오늘 배운것: 이 저장소는 매일 알게된 다양한 언어와 기술에 대해서 간략한 글로 정리한 곳입니다.
 ([jbranchaud/til](https://github.com/jbranchaud/til) -> 여기에서 영감을 받음!)
 
-*31 TILs and counting...*
+*33 TILs and counting...*
 
 ---
 
@@ -41,9 +41,10 @@
 
 #### MachineLearning
 
-- [하이퍼파라미터](machine learning/hyperparameter.md)
-- [경사하강법](machine learning/gradient-descent.md)
-- [과적합-과소적합](machine learning/underfit-overfit.md)
+- [하이퍼파라미터](machine-learning/hyperparameter.md)
+- [경사하강법](machine-learning/gradient-descent.md)
+- [과적합-과소적합](machine-learning/underfit-overfit.md)
+- [Pytorch](machine-learning/pytorch.md)
 
 ### openCV
 
@@ -70,6 +71,11 @@
 
 - [코드 스플리팅](react/code-splitting.md)
 - [번들 최적화](react/bundle-optimization.md)
+
+#### Network
+
+- [캐싱](network/cache.md)
+- [CDN](network/cdn.md)
 
 #### ETC
 

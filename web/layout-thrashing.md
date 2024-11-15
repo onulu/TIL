@@ -50,7 +50,7 @@ document.addEventListener('mousemove', (e) => {
 });
 ```
 
-2. `requestAnimationFrame`응 사용해 업데이트를 제어
+2. `requestAnimationFrame`을 사용해 업데이트를 제어
 
 requestAnimationFrame은 브라우저 렌더링 주기에 맞춰 애니메이션을 실행하는 메서드이다.
 비활성탭에서는 실행이 중지되고 브라우저의 렌더링 주기에 맞춰 실행된다.
@@ -79,4 +79,4 @@ document.addEventListener('mousemove', (e) => {
 - Layout 속성의 읽기와 쓰기 작업을 분리
 - CSS 인터렉션 적용시 레이아웃을 트리거 하는 속성을 최소화
 - will-change 속성을 사용해 브라우저에게 변경될 속성을 미리 알려줌으로써, 브라우저가 사전에 최적화를 준비할 수 있게 한다.
-- 복잡한 애니메이션은 absolute나 fixed 포지셔닝을 사용하면 요소가 일반적 문저 스름에서 제거된다. 해당 요소의 변경이 다른 요소의 레이아웃 재계산을 트리거 하지 않게 된다.
+- 복잡한 애니메이션은 absolute나 fixed 포지셔닝을 사용하면 요소가 일반적 문서 흐름에서 제거된다. 해당 요소의 변경이 다른 요소의 레이아웃 재계산을 트리거 하지 않게 된다.
